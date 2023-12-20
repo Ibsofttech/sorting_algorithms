@@ -19,8 +19,8 @@ void swap_func(int *ele1, int *ele2)
  * mx_heap - converts binary tree to head
  * @array: array to be sorted
  * @size: array size
- * @base: The index of the base row of the tree.
- * @root: The root node of the binary tree.
+ * @lower: The index of the base row of the tree.
+ * @upper: The root node of the binary tree.
  */
 void mx_heap(int *array, size_t lower, size_t upper, size_t size)
 {
